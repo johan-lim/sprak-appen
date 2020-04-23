@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>fi</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-117.000000, -215.000000)">
+            <g id="Icon/Flag/Finland/32" transform="translate(117.000000, 215.000000)">
+                <g id="ic_flag_fi_32">
+                    <rect id="Base" stroke="#B5B6BE" stroke-width="0.5" fill="#FFFFFF" x="0.25" y="0.25" width="31.5" height="21.5" rx="2"></rect>
+                    <path d="M9,9 L9,0.5 L13,0.5 L13,9 L31.5,9 L31.5,13 L13,13 L13,21.5 L9,21.5 L9,13 L0.5,13 L0.5,9 L9,9 Z" id="Stripes" fill="#003282"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

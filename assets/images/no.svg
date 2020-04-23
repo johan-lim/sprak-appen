@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>no</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="22" rx="2"></rect>
+    </defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-117.000000, -156.000000)">
+            <g id="Icon/Flag/Norway/32" transform="translate(117.000000, 156.000000)">
+                <g id="ic_flag_no_32">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Base" fill="#F02532" xlink:href="#path-1"></use>
+                    <path d="M8,8 L8,-1 L14,-1 L14,8 L33,8 L33,14 L14,14 L14,23 L8,23 L8,14 L-1,14 L-1,8 L8,8 Z" id="Stripes" stroke="#FFFFFF" stroke-width="2" fill="#00207F" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
