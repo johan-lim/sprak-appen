@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Spinner, View, DeckSwiper, Card, CardItem, Thumbnail, Text, Left, Body, Icon } from 'native-base';
+import { Container, Spinner, View, DeckSwiper, Card, CardItem, Right, Text, Left, Body, Icon } from 'native-base';
 import { mainConfig } from '../utils/config';
 
 export default class HomeScreen extends Component {
@@ -10,7 +10,7 @@ export default class HomeScreen extends Component {
 
   fetchLesson = async (langFrom, langTo, level) => {
     this.setState({ isLoading: true });
-    const response = await fetch(`${mainConfig.storage_url}/lesson_${langFrom}_${langTo}_${level}.json?bustcache=true`);
+    const response = await fetch(`${mainConfig.storage_url}/lesson_${langFrom}_${langTo}_${level}_small.json?bustcache=true`);
     const currentLesson = await response.json();
     this.setState({ currentWordList: currentLesson.words, isLoading: false });
   }
@@ -42,6 +42,7 @@ export default class HomeScreen extends Component {
             <DeckSwiper
             dataSource={this.shuffleArray(this.state.currentWordList)}
             onSwipeRight={(item) => this.knownWord(item)}
+            looping={false}
             renderItem={item =>
               <Card style={{ elevation: 3 }}>
                 <CardItem>
@@ -51,15 +52,12 @@ export default class HomeScreen extends Component {
                       <Text note>English</Text>
                     </Body>
                   </Left>
-                </CardItem>
-                <CardItem>
-                <Left>
+                  <Right>
                     <Body>
-                      <Icon name="flag" style={{ color: '#ED4A6A' }} />
                       <Text>{item.language_to}</Text>
                       <Text note>Swedish</Text>
                     </Body>
-                  </Left>
+                  </Right>
                 </CardItem>
               </Card>
             }
